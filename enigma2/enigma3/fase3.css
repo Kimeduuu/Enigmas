@@ -1,0 +1,54 @@
+*{
+    font-family: monospace;
+}
+
+#container{
+    background-color: rgb(204, 255, 196);
+    height: 98vh;
+}
+
+#imgs{
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    display: flex;
+}
+
+#h1{
+    background-color: rgb(173, 255, 255);
+    height: 160px;
+}
+
+#typePassword{
+    height: 20px;
+    display: flex;
+    width: 240px;
+    top: 80%;
+    left: 80%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+#resposta{
+    background-color: rgb(128, 235, 22);
+    border: none;
+}
+
+#enviar{
+    cursor: pointer;
+    border: none;
+
+
+    background-color: rgb(117, 173, 21);
+}
+
+#enviar:hover{
+    transition: .5s;
+    background-color: rgb(95, 139, 17);
+}
+
+h2{
+    font-size: 25px;
+    text-align: center;
+}

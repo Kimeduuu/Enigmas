@@ -1,0 +1,71 @@
+*{
+    font-family: monospace;
+}
+
+#container{
+    background-color: rgb(197, 117, 60);
+    width: 99vw;
+    height: 97vh;
+}
+
+#elements{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+}
+
+#radio{
+    border-radius: 10px;
+}
+
+#resposta{
+    color: black;
+    border: none;
+    background-color: rgb(221, 178, 37);
+}
+
+#confirmar{
+    border-radius: 2px;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(214, 163, 87);
+    width: 28%;
+}
+
+#confirmar:hover{
+    background-color: rgb(192, 132, 42);
+}
+
+h1{
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#typePassword{
+    height: 20px;
+    display: flex;
+    width: 240px;
+    top: 80%;
+    left: 80%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+h2{
+    color: rgb(207, 108, 37);
+    font-size: 30px;
+
+    top: 40%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+

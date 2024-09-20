@@ -1,0 +1,61 @@
+*{
+    font-family: monospace;
+}
+
+#container{
+    background-color: rgb(75, 95, 58);
+    width: 98vw;
+    height: 97vh;
+}
+
+#typePassword{
+    display: flex;
+    height: 20px;
+    width: 240px;
+    top: 80%;
+    left: 80%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+
+#resposta{
+    color: #464646;
+    background-color: rgb(100, 209, 27);
+    border: none;
+}
+
+#enviar:hover{
+    transition: .5s;
+    background-color: rgb(50, 68, 0);
+}
+
+#enviar{
+    cursor: pointer;
+    border: none;
+    background-color: rgb(68, 92, 0);
+}
+
+#x{
+
+    border: 1px solid #000;
+    top: 30%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    position: absolute;
+
+}
+
+#h2{
+
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    position: absolute;
+
+
+    font-size: 25px;
+}
